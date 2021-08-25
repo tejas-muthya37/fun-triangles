@@ -10,7 +10,8 @@ function calculateHypo() {
   var hypoLength = Math.sqrt(
     sumOfSquares(Number(sideInputs[0].value), Number(sideInputs[1].value))
   );
-  outputDiv.innerText = hypoLength;
+  outputDiv.innerText =
+    "The length of the hypotenuse is " + hypoLength.toFixed(4);
 }
 
 hypoBtn.addEventListener("click", calculateHypo);

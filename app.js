@@ -4,9 +4,9 @@ const outputDiv = document.querySelector("#output");
 
 function isTriangle() {
   if (sumOfAngles(inputs[0].value, inputs[1].value, inputs[2].value) === 180) {
-    outputDiv.innerText = "Triangle";
+    outputDiv.innerText = "Yes, this can form a triangle.";
   } else {
-    outputDiv.innerText = "Not triangle";
+    outputDiv.innerText = "No, this cannot form a triangle.";
   }
 }
 

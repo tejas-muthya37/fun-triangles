@@ -44,7 +44,7 @@ input:focus{
     outline: none;
 }
 
-#btn-triangle {
+#btn-area {
     width: 7.5rem;
     font-size: 1.1rem;
     border-radius: 5px;
@@ -57,15 +57,15 @@ input:focus{
     font-weight: bold;
 }
 
-#btn-triangle:hover{
+#btn-area:hover{
     border: 2px solid white;
     background-color: black;
     color: white;
 }
-
 
 #output {
     margin-top: 50px;
     font-weight: bold;
     font-size: larger;
 }
+
